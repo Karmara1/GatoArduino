@@ -1,0 +1,984 @@
+// PImage= Imagen
+// PFont= Typo
+
+PImage foto;
+PFont font;
+
+int ancho = 9;
+int alto = 9;
+
+void setup(){
+  size(1221, 720);
+  foto = loadImage("fonfo.png");
+  font = loadFont("Impact-48.vlw");
+}
+
+void draw(){
+  scale (1);
+  background(#ffffff);
+  //image(foto, 0, 120);
+  fill(0,0,0);
+  textFont(font, 40);
+  text("ME DIJISTE QUE SABÍAS PROGRAMAR", 20, 70);
+  text("SI, PERO LA ALARMA", 755, 70);
+  
+  for(int i = 0; i < 100; i = i + ancho){
+   ellipse(615 + i, 120, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 85; i = i + ancho){
+   ellipse(615 + i, 130, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 65; i = i + ancho){
+   ellipse(615 + i, 140, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 55; i = i + ancho){
+   ellipse(615 + i, 150, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 45; i = i + ancho){
+   ellipse(615 + i, 160, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 35; i = i + ancho){
+   ellipse(615 + i, 170, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 35; i = i + ancho){
+   ellipse(615 + i, 180, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 25; i = i + ancho){
+   ellipse(615 + i, 190, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 25; i = i + ancho){
+   ellipse(615 + i, 200, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 15; i = i + ancho){
+   ellipse(615 + i, 210, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 5; i = i + ancho){
+   ellipse(615 + i, 220, ancho, alto);
+   fill(#2B2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 60; i = i + 10){
+   ellipse(715 + i, 120, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 65; i = i + alto){
+   ellipse(705 + i, 130, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 75; i = i + alto){
+   ellipse(687 + i, 140, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 85; i = i + 10){
+   ellipse(678 + i, 150, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 95; i = i + 10){
+   ellipse(662 + i, 160, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 105; i = i + 10){
+   ellipse(652 + i, 170, ancho, alto);
+   fill(#7A2293);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 105; i = i + 10){
+   ellipse(652 + i, 180, ancho, alto);
+   fill(#C62AA5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 115; i = i + alto){
+   ellipse(642 + i, 190, ancho, alto);
+   fill(#C62AA5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 115; i = i + alto){
+   ellipse(642 + i, 200, ancho, alto);
+   fill(#C62AA5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 120; i = i + alto){
+   ellipse(633 + i, 210, ancho, alto);
+   fill(#C62AA5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 130; i = i + alto){
+   ellipse(624 + i, 220, ancho, alto);
+   fill(#C62AA5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 150; i = i + alto){
+   ellipse(775 + i, 120, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 140; i = i + alto){
+   ellipse(777 + i, 130, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 140; i = i + alto){
+   ellipse(770 + i, 140, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 130; i = i + alto){
+   ellipse(770 + i, 150, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(760 + i, 160, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(780 + i, 160, ancho, alto);
+   fill(#F28F3D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(790 + i, 160, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(820 + i, 160, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(850 + i, 160, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(760 + i, 170, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(780 + i, 170, ancho, alto);
+   fill(#F28F3D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(790 + i, 170, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(760 + i, 180, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 190, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 200, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 220, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 210, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 220, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 230, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 50; i = i + alto){
+   ellipse(760 + i, 240, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(760 + i, 250, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(760 + i, 260, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(810 + i, 170, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(850 + i, 170, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(760 + i, 180, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(780 + i, 180, ancho, alto);
+   fill(#F28F3D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(790 + i, 180, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 400; i = i + alto){
+   ellipse(870 + i, 200, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 400; i = i + alto){
+   ellipse(880 + i, 180, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 400; i = i + alto){
+   ellipse(860 + i, 210, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(880 + i, 190, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(890 + i, 170, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(900 + i, 160, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(810 + i, 180, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(810 + i, 190, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(810 + i, 200, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(810 + i, 210, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 450; i = i + alto){
+   ellipse(810 + i, 220, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 450; i = i + alto){
+   ellipse(810 + i, 230, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 450; i = i + alto){
+   ellipse(810 + i, 240, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(780 + i, 250, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(780 + i, 260, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(780 + i, 270, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(780 + i, 280, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(790 + i, 290, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(790 + i, 300, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(790 + i, 310, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(795 + i, 320, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(795 + i, 330, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(795 + i, 340, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(800 + i, 350, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(800 + i, 360, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(800 + i, 370, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(805 + i, 380, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(810 + i, 390, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(810 + i, 400, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(815 + i, 410, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(815 + i, 420, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(815 + i, 430, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(820 + i, 440, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(820 + i, 430, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(820 + i, 440, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(820 + i, 450, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(825 + i, 460, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(825 + i, 470, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 10; i = i + alto){
+   ellipse(830 + i, 480, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 300; i = i + alto){
+   ellipse(1030 + i, 490, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1035 + i, 480, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 470, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1045 + i, 460, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 450, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 440, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 430, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 420, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 410, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1035 + i, 400, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1035 + i, 390, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1040 + i, 380, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1045 + i, 370, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1050 + i, 360, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1055 + i, 350, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1060 + i, 340, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1065 + i, 330, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 250; i = i + alto){
+   ellipse(1070 + i, 320, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 500; i = i + alto){
+   ellipse(850 + i, 310, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <165; i = i + alto){
+   ellipse(870 + i, 320, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(890 + i, 330, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(980 + i, 330, ancho, alto);
+   fill(#091B5D);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <40; i = i + alto){
+   ellipse(1000 + i, 330, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <70; i = i + alto){
+   ellipse(910 + i, 330, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(860 + i, 330, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(850 + i, 320, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(840 + i, 310, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <5; i = i + alto){
+   ellipse(825 + i, 300, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <160; i = i + alto){
+   ellipse(870 + i, 340, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <30; i = i + alto){
+   ellipse(1020 + i, 350, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <30; i = i + alto){
+   ellipse(1010 + i, 360, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(1020 + i, 370, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(840 + i, 360, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(835 + i, 350, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <30; i = i + alto){
+   ellipse(830 + i, 340, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <30; i = i + alto){
+   ellipse(830 + i, 330, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(830 + i, 320, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(825 + i, 310, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(1025 + i, 380, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <175; i = i + alto){
+   ellipse(840 + i, 370, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+  for(int i = 0; i <70; i = i + alto){
+   ellipse(840 + i, 380, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(835 + i, 390, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <40; i = i + alto){
+   ellipse(890 + i, 390, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <70; i = i + alto){
+   ellipse(960 + i, 390, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(860 + i, 390, ancho, alto);
+   fill(#000000);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(930 + i, 390, ancho, alto);
+   fill(#000000);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(835 + i, 400, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <200; i = i + alto){
+   ellipse(830 + i, 410, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <40; i = i + alto){
+   ellipse(835 + i, 420, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(850 + i, 420, ancho, alto);
+   fill(#FFAB9B);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <40; i = i + alto){
+   ellipse(890 + i, 400, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <70; i = i + alto){
+   ellipse(960 + i, 400, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(860 + i, 400, ancho, alto);
+   fill(#000000);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(930 + i, 400, ancho, alto);
+   fill(#000000);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <175; i = i + alto){
+   ellipse(850 + i, 380, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <150; i = i + alto){
+   ellipse(865 + i, 350, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <150; i = i + alto){
+   ellipse(860 + i, 360, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(1042 + i, 320, ancho, alto);
+   fill(#F5F6FA);
+   noStroke();
+ }
+ 
+ 
+ for(int i = 0; i <10; i = i + alto){
+   ellipse(1052 + i, 320, ancho, alto);
+   fill(#FCC2C6);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(1042 + i, 330, ancho, alto);
+   fill(#FCC2C6);
+   noStroke();
+ }
+ 
+ for(int i = 0; i <20; i = i + alto){
+   ellipse(1035 + i, 340, ancho, alto);
+   fill(#FCC2C6);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 40; i = i + alto){
+   ellipse(840 + i, 180, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 45; i = i + alto){
+   ellipse(835 + i, 190, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 30; i = i + alto){
+   ellipse(835 + i, 200, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ for(int i = 0; i < 20; i = i + alto){
+   ellipse(835 + i, 210, ancho, alto);
+   fill(#FCCD99);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 150; i = i + alto){
+   ellipse(915 + i, 120, ancho, alto);
+   fill(#99AFFC);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 160; i = i + alto){
+   ellipse(915 + i, 130, ancho, alto);
+   fill(#99AFFC);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 160; i = i + alto){
+   ellipse(915 + i, 140, ancho, alto);
+   fill(#99AFFC);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 170; i = i + alto){
+   ellipse(905 + i, 150, ancho, alto);
+   fill(#99AFFC);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 200; i = i + alto){
+   ellipse(1070 + i, 120, ancho, alto);
+   fill(#EDEFF5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 200; i = i + alto){
+   ellipse(1075 + i, 130, ancho, alto);
+   fill(#EDEFF5);
+   noStroke();
+ }
+ 
+ for(int i = 0; i < 200; i = i + alto){
+   ellipse(1075 + i, 140, ancho, alto);
+   fill(#EDEFF5);
+   noStroke();
+ }
+}
